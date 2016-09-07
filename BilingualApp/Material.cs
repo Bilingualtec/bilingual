@@ -19,7 +19,16 @@ namespace BilingualApp
 
         private void button1_Click(object sender, EventArgs e)
         {
+            VerboToBe vrb = new VerboToBe();
+            vrb.Visible = true;
+            Close();
+        }
 
+        private void Atras_Click(object sender, EventArgs e)
+        {
+            bilingual bi = new bilingual();
+            bi.Visible = true;
+            Close();
         }
     }
 }

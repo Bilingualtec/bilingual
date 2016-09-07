@@ -28,47 +28,59 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.VerbToBe = new System.Windows.Forms.Button();
+            this.DoWhile = new System.Windows.Forms.Button();
+            this.Gramatica = new System.Windows.Forms.Button();
+            this.Atras = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // VerbToBe
             // 
-            this.button1.Location = new System.Drawing.Point(117, 126);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Verbo To-Be";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.VerbToBe.Location = new System.Drawing.Point(23, 168);
+            this.VerbToBe.Name = "VerbToBe";
+            this.VerbToBe.Size = new System.Drawing.Size(75, 23);
+            this.VerbToBe.TabIndex = 0;
+            this.VerbToBe.Text = "Verbo To-Be";
+            this.VerbToBe.UseVisualStyleBackColor = true;
+            this.VerbToBe.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // DoWhile
             // 
-            this.button2.Location = new System.Drawing.Point(345, 126);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Do-While";
-            this.button2.UseVisualStyleBackColor = true;
+            this.DoWhile.Location = new System.Drawing.Point(23, 103);
+            this.DoWhile.Name = "DoWhile";
+            this.DoWhile.Size = new System.Drawing.Size(75, 23);
+            this.DoWhile.TabIndex = 1;
+            this.DoWhile.Text = "Do-While";
+            this.DoWhile.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // Gramatica
             // 
-            this.button3.Location = new System.Drawing.Point(561, 126);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Gramatica";
-            this.button3.UseVisualStyleBackColor = true;
+            this.Gramatica.Location = new System.Drawing.Point(23, 34);
+            this.Gramatica.Name = "Gramatica";
+            this.Gramatica.Size = new System.Drawing.Size(75, 23);
+            this.Gramatica.TabIndex = 2;
+            this.Gramatica.Text = "Gramatica";
+            this.Gramatica.UseVisualStyleBackColor = true;
+            // 
+            // Atras
+            // 
+            this.Atras.Location = new System.Drawing.Point(23, 303);
+            this.Atras.Name = "Atras";
+            this.Atras.Size = new System.Drawing.Size(75, 23);
+            this.Atras.TabIndex = 3;
+            this.Atras.Text = "Atras";
+            this.Atras.UseVisualStyleBackColor = true;
+            this.Atras.Click += new System.EventHandler(this.Atras_Click);
             // 
             // Material
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(771, 338);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(120, 355);
+            this.Controls.Add(this.Atras);
+            this.Controls.Add(this.Gramatica);
+            this.Controls.Add(this.DoWhile);
+            this.Controls.Add(this.VerbToBe);
             this.Name = "Material";
             this.Text = "Material";
             this.ResumeLayout(false);
@@ -77,8 +89,9 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button VerbToBe;
+        private System.Windows.Forms.Button DoWhile;
+        private System.Windows.Forms.Button Gramatica;
+        private System.Windows.Forms.Button Atras;
     }
 }

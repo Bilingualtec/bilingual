@@ -54,6 +54,12 @@
     <Compile Include="bilingual.Designer.cs">
       <DependentUpon>bilingual.cs</DependentUpon>
     </Compile>
+    <Compile Include="VerboToBe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VerboToBe.Designer.cs">
+      <DependentUpon>VerboToBe.cs</DependentUpon>
+    </Compile>
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,6 +82,9 @@
     </Compile>
     <EmbeddedResource Include="bilingual.resx">
       <DependentUpon>bilingual.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VerboToBe.resx">
+      <DependentUpon>VerboToBe.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
