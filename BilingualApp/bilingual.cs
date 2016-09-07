@@ -53,9 +53,20 @@ namespace BilingualApp
             }*/
         }
 
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Home home = new Home();
+            home.Visible = true;
+            Close();
+        }
+
         private void button2_Click(object sender, EventArgs e)
         {
-           /* try
+            Material mat = new Material();
+            mat.Visible = true;
+            Close();
+            
+            /* try
             {
                 var sr = new StreamReader("C:\\ " + textnom.Text + "\\regist.ID");
                 user = sr.ReadLine();
