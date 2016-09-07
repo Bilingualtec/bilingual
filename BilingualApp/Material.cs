@@ -22,6 +22,7 @@ namespace BilingualApp
             VerboToBe vrb = new VerboToBe();
             vrb.Visible = true;
             Close();
+            //wisiwik
         }
 
         private void Atras_Click(object sender, EventArgs e)
