@@ -54,11 +54,11 @@
     <Compile Include="bilingual.Designer.cs">
       <DependentUpon>bilingual.cs</DependentUpon>
     </Compile>
-    <Compile Include="VerboToBe.cs">
+    <Compile Include="Salon.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="VerboToBe.Designer.cs">
-      <DependentUpon>VerboToBe.cs</DependentUpon>
+    <Compile Include="Salon.Designer.cs">
+      <DependentUpon>Salon.cs</DependentUpon>
     </Compile>
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
@@ -83,8 +83,8 @@
     <EmbeddedResource Include="bilingual.resx">
       <DependentUpon>bilingual.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="VerboToBe.resx">
-      <DependentUpon>VerboToBe.cs</DependentUpon>
+    <EmbeddedResource Include="Salon.resx">
+      <DependentUpon>Salon.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>

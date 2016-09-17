@@ -19,7 +19,7 @@ namespace BilingualApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            VerboToBe vrb = new VerboToBe();
+            Salon vrb = new Salon();
             vrb.Visible = true;
             Close();
             //wisiwik

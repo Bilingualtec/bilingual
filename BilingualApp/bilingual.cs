@@ -62,7 +62,7 @@ namespace BilingualApp
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Material mat = new Material();
+            Salon mat = new Salon();
             mat.Visible = true;
             Close();
             
