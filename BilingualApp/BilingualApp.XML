@@ -21,18 +21,18 @@
             the contents of this method with the code editor.
             </summary>
         </member>
-        <member name="F:BilingualApp.VerboToBe.components">
+        <member name="F:BilingualApp.Salon.components">
             <summary>
             Required designer variable.
             </summary>
         </member>
-        <member name="M:BilingualApp.VerboToBe.Dispose(System.Boolean)">
+        <member name="M:BilingualApp.Salon.Dispose(System.Boolean)">
             <summary>
             Clean up any resources being used.
             </summary>
             <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         </member>
-        <member name="M:BilingualApp.VerboToBe.InitializeComponent">
+        <member name="M:BilingualApp.Salon.InitializeComponent">
             <summary>
             Required method for Designer support - do not modify
             the contents of this method with the code editor.

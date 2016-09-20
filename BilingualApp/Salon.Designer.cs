@@ -35,7 +35,7 @@
             // 
             // numalu
             // 
-            this.numalu.Location = new System.Drawing.Point(335, 48);
+            this.numalu.Location = new System.Drawing.Point(207, 25);
             this.numalu.Name = "numalu";
             this.numalu.Size = new System.Drawing.Size(40, 20);
             this.numalu.TabIndex = 0;
@@ -44,7 +44,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(240, 32);
+            this.label1.Location = new System.Drawing.Point(112, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(230, 13);
             this.label1.TabIndex = 1;
@@ -52,7 +52,7 @@
             // 
             // Crear
             // 
-            this.Crear.Location = new System.Drawing.Point(317, 74);
+            this.Crear.Location = new System.Drawing.Point(189, 51);
             this.Crear.Name = "Crear";
             this.Crear.Size = new System.Drawing.Size(75, 23);
             this.Crear.TabIndex = 2;
@@ -62,14 +62,16 @@
             // 
             // Salon
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(759, 496);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.AutoSize = true;
+            this.ClientSize = new System.Drawing.Size(435, 496);
             this.Controls.Add(this.Crear);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.numalu);
             this.Name = "Salon";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Clases";
+            this.Load += new System.EventHandler(this.Salon_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

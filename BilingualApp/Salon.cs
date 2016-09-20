@@ -17,6 +17,8 @@ namespace BilingualApp
         para cada alumno con un numero que indique su posicion en la lista
         */
     {
+        String alu;
+        int x = 0;
         public Salon()
         {
             InitializeComponent();
@@ -24,18 +26,48 @@ namespace BilingualApp
 
         private void numalu_TextChanged(object sender, EventArgs e)
         {
-            String alu;
+            x = 0;//restablece el valor a cero
             alu = numalu.Text;
+            x = Convert.ToInt32(alu);
+                
             /*maestro indica numero de alumnos
             alu contiene ese numero
-             hay que ver como s elo pasamos a el creador de bottones
+             hay que ver como se lo pasamos a el creador de bottones
              esta abajo...
             */
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            //generamos el array de botones uno para cada 
+            //estudiante con su numero de lista
+            int top = 50;
+            int left = 100;
+            for (int i = 1; i < x+1; i++)
+            {
+                //se le pone el numero al boton usando el
+                //contador de FOR para asi ir aumentando el numero
+                Button button = new Button();
+                button.Text = i.ToString();
+                button.Left = left;
+                button.Top = top;
+                this.Controls.Add(button);
+                top += button.Height + 2;
+            }
+
+            /* List<Button> buttons = new List<Button>();
+            for (int i = 0; i < x; i++)
+            {
+                Button newButton = new Button();
+                buttons.Add(newButton);
+                this.Controls.Add(newButton);
+            }*/
+
+        }
+
+        private void Salon_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
