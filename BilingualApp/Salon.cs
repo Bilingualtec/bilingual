@@ -39,9 +39,9 @@ namespace BilingualApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //generamos el array de botones uno para cada 
+            //generamos el array de botones uno para cada
             //estudiante con su numero de lista
-            int top = 50;
+            int top = 100;
             int left = 100;
             for (int i = 1; i < x+1; i++)
             {
@@ -54,20 +54,19 @@ namespace BilingualApp
                 this.Controls.Add(button);
                 top += button.Height + 2;
             }
-
-            /* List<Button> buttons = new List<Button>();
-            for (int i = 0; i < x; i++)
-            {
-                Button newButton = new Button();
-                buttons.Add(newButton);
-                this.Controls.Add(newButton);
-            }*/
-
+            
         }
 
         private void Salon_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void BtnAtras_Click(object sender, EventArgs e)
+        {
+            bilingual b= new bilingual();
+            b.Visible = true;
+            Close();
         }
     }
 }

@@ -31,6 +31,7 @@
             this.numalu = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.Crear = new System.Windows.Forms.Button();
+            this.BtnAtras = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // numalu
@@ -52,7 +53,7 @@
             // 
             // Crear
             // 
-            this.Crear.Location = new System.Drawing.Point(189, 51);
+            this.Crear.Location = new System.Drawing.Point(247, 51);
             this.Crear.Name = "Crear";
             this.Crear.Size = new System.Drawing.Size(75, 23);
             this.Crear.TabIndex = 2;
@@ -60,11 +61,22 @@
             this.Crear.UseVisualStyleBackColor = true;
             this.Crear.Click += new System.EventHandler(this.button1_Click);
             // 
+            // BtnAtras
+            // 
+            this.BtnAtras.Location = new System.Drawing.Point(132, 51);
+            this.BtnAtras.Name = "BtnAtras";
+            this.BtnAtras.Size = new System.Drawing.Size(75, 23);
+            this.BtnAtras.TabIndex = 3;
+            this.BtnAtras.Text = "Atras";
+            this.BtnAtras.UseVisualStyleBackColor = true;
+            this.BtnAtras.Click += new System.EventHandler(this.BtnAtras_Click);
+            // 
             // Salon
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(435, 496);
+            this.Controls.Add(this.BtnAtras);
             this.Controls.Add(this.Crear);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.numalu);
@@ -82,5 +94,6 @@
         private System.Windows.Forms.TextBox numalu;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button Crear;
+        private System.Windows.Forms.Button BtnAtras;
     }
 }
